@@ -1,5 +1,5 @@
 {
-  "name": "devwind",
+  "name": "test",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,17 +9,36 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/button": "2.0.21",
+    "@nextui-org/card": "^2.0.21",
+    "@nextui-org/chip": "2.0.21",
+    "@nextui-org/spacer": "2.0.19",
+    "@nextui-org/switch": "2.0.21",
+    "@nextui-org/system": "2.0.10",
+    "@nextui-org/theme": "2.1.9",
     "@types/node": "20.6.3",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.16",
+    "bright": "0.8.4",
+    "clsx": "^2.0.0",
+    "date-fns": "2.30.0",
     "eslint": "8.49.0",
     "eslint-config-next": "13.5.2",
+    "framer-motion": "10.16.4",
+    "gray-matter": "4.0.3",
     "next": "13.5.2",
+    "next-mdx-remote": "4.4.1",
+    "next-themes": "0.2.1",
     "postcss": "8.4.30",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-feather": "2.0.10",
+    "tailwind-merge": "1.14.0",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "0.5.10"
   }
 }
